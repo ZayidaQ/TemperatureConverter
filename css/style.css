@@ -1,0 +1,39 @@
+/* Navbar styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.jumbotron h1 {
+    color: #212529;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    color: #6c757d;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Media queries */
+@media (max-width: 576px) {
+    .jumbotron {
+        padding: 100px 0;
+    }
+}

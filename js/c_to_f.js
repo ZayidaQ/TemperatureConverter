@@ -33,3 +33,9 @@ function onConvertCelsiusBtnClicked(){
     messagePara.innerHTML = "";
 }
 
+
+function onClearBtnClicked(){
+    document.getElementById("number1Field").value = "";
+    document.getElementById("answerField").value = "";
+    document.getElementById("messagePara").innerHTML = "";
+    }

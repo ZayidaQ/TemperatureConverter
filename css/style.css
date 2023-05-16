@@ -18,6 +18,7 @@
     background-color: #f8f9fa;
     text-align: center;
     padding: 150px 0;
+    margin-top: 70px;
 }
 
 .jumbotron h1 {
@@ -36,4 +37,66 @@
     .jumbotron {
         padding: 100px 0;
     }
+}
+
+/* Body Styles */
+body {
+    background-color: #cce8d8;
+    font-family: Arial, sans-serif;
+}
+  
+.calc-container {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+  
+td {
+    padding: 5px;
+}
+  
+.form-control {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+}
+  
+.convert-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+button {
+    background-color: #e8c9cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #d39aa0;
+}
+  
+#messagePara {
+    text-align: center;
+    font-style: italic;
+    color: #666666;
+    margin-top: 20px;
 }
